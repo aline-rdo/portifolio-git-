@@ -1,4 +1,4 @@
-from usuarios import listar_usuarios, buscar_por_id
+from usuarios import listar_usuarios, buscar_por_id, adicionar_usuario
 from validacao import validar_usuario, validar_email
 
 
@@ -24,3 +24,8 @@ if __name__ == "__main__":
     exibir_usuarios()
     buscar_usuario(1)
     buscar_usuario(99)
+
+    print("\n=== Adicionando novo usuário ===")
+    novo = adicionar_usuario("Carlos", "carlos@email.com")  # importar do usuarios
+    print(f"Criado: {novo}")
+    exibir_usuarios()
