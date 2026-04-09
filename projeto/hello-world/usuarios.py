@@ -4,6 +4,7 @@ from validacao import validar_usuario
 USUARIOS = [
     {"id": 1, "nome": "Alice", "email": "alice@email.com"},
     {"id": 2, "nome": "Bob",   "email": "bob@email.com"},
+    {"id": 3, "nome": "Eduardo", "email": "eduardo@email.com"}
 ]
 
 
