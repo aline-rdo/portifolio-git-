@@ -5,6 +5,7 @@ durante as Semanas 2 e 3 do curso. O objetivo foi demonstrar domínio real
 sobre commits semânticos, branches, Pull Requests e resolução de conflitos.
 
 ## Estrutura
+
 portifolio-git/
 ├── exercicios/
 │   ├── ex01-commits/notas.md        ← estudo sobre commits semânticos
